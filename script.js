@@ -13,10 +13,10 @@
 //     alert(fullName);
 // }
 function getFormvalue(){
-	var form=document.getElementById("form1")
+	var form=document.getElementById("form1");
 
-	var firstName=form.element("fname").value;
-	var=lastName=form.element("lname").value;
+	var firstName=form.elements("fname").value;
+	var=lastName=form.elements("lname").value;
 
 	var fullName=firstName+" "+lastName;
 
