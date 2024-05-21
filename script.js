@@ -1,4 +1,4 @@
-function getFormvalue() {
+function Submit() {
     // Get the form element by its ID
     var form = document.getElementById('form1');
     
